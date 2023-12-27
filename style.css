@@ -1,0 +1,26 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 200px;
+    width: 550px;
+    display: flex;
+    flex-direction: column; /*  flex-direction to column to stack items vertically */
+    align-items: center; /* Center items horizontally within the container */
+    background-color: aliceblue;
+    margin-top: 300px;
+    margin-left: 500px;
+}
+
+#click {
+    height: 35px;
+    width: 90%; /*  width to 90% of the container */
+    margin-top: 10px; /*  margin to create space between heading and button */
+}
+
+#first {
+    color: aqua;
+}
